@@ -3,7 +3,7 @@ const auth = require('json-server-auth')
 const cors = require('cors')
 const path = require('path')
 const server = jsonServer.create()
-const router = jsonServer.router(path.join(__filename, 'db.json'))
+const router = jsonServer.router(path.join(__dirname, 'db.json'))
 // const middlewares = jsonServer.defaults({
 //   noCors: true,
 // })
