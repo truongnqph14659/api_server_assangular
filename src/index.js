@@ -20,8 +20,10 @@ server.use(cors())
 server.use(rules)
 server.use(auth)
 server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:4200')
-  res.header('Access-Control-Allow-Headers', '*')
+   res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE')
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+  res.setHeader('Access-Control-Allow-Credentials', true)
   if (req.method === 'POST') {
     req.body.createAt = Date.now()
     req.body.updateAt = Date.now()
