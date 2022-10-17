@@ -31,8 +31,9 @@ server.use((req, res, next) => {
 })
 server.use((req, res, next) => {
   res.header(
-    'Access-Control-Allow-Origin',
-    'https://apiserverassangular.vercel.app/api'
+    'Access-Control-Allow-Origin: http://localhost:4200',
+    'Access-Control-Allow-Methods: POST',
+    'Access-Control-Allow-Headers: Content-Type, Authorization'
   )
   res.header('Access-Control-Allow-Headers', '*')
   next()
