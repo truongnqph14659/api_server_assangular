@@ -1,0 +1,333 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MacBook Pro  inch 2021 M1 Pro",
+      "img": "http://res.cloudinary.com/hungtv/image/upload/v1645348625/nbopyrsqlbfmgww5cb6g.jpg",
+      "price": "64000000",
+      "productCateId": "15",
+      "hot": "0"
+    },
+    {
+      "id": 2,
+      "name": "Tai nghe HyperX Cloud  S",
+      "img": "http://res.cloudinary.com/hungtv/image/upload/v1645352076/veafqyfeh8etxj6enrnd.jpg",
+      "price": "2500000",
+      "productCateId": "15",
+      "hot": "0"
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro 14 2021 M",
+      "img": "http://res.cloudinary.com/hungtv/image/upload/v1645348625/nbopyrsqlbfmgww5cb6g.jpg",
+      "price": "64000000",
+      "productCateId": "15",
+      "hot": "0"
+    },
+    {
+      "id": 4,
+      "name": "MacBook Pro 14 inch  Pro",
+      "img": "http://res.cloudinary.com/hungtv/image/upload/v1645348625/nbopyrsqlbfmgww5cb6g.jpg",
+      "price": "64000000",
+      "productCateId": "15",
+      "hot": "0"
+    },
+    {
+      "id": 5,
+      "name": "MacBook  inch 2021 M1 Pro",
+      "img": "http://res.cloudinary.com/hungtv/image/upload/v1645348625/nbopyrsqlbfmgww5cb6g.jpg",
+      "price": "64000000",
+      "productCateId": "16",
+      "hot": "0"
+    },
+    {
+      "id": 6,
+      "name": "MacBook  inch 2021 M1 Pro",
+      "img": "http://res.cloudinary.com/hungtv/image/upload/v1645348625/nbopyrsqlbfmgww5cb6g.jpg",
+      "price": "64000000",
+      "productCateId": "16",
+      "hot": "0"
+    },
+    {
+      "id": 7,
+      "name": "lê thị trang",
+      "img": "http://res.cloudinary.com/trangltph14650/image/upload/v1665931255/s7htnng3p4t3ycthtdjr.jpg",
+      "price": "",
+      "productCateId": "012",
+      "hot": ""
+    },
+    {
+      "id": 8,
+      "name": "Dell XPS 9310",
+      "img": "http://res.cloudinary.com/trangltph14650/image/upload/v1665931628/pecnhylzs8gtrgfcvikc.jpg",
+      "price": "160000",
+      "productCateId": "7",
+      "hot": ""
+    }
+  ],
+  "productCates": [
+    {
+      "cateName": "Samsung",
+      "cateType": "smarttv",
+      "id": "011"
+    },
+    {
+      "cateName": "Sony",
+      "cateType": "smarttv",
+      "id": "012"
+    },
+    {
+      "cateName": "Tosiba",
+      "cateType": "smarttv",
+      "id": "013"
+    },
+    {
+      "cateName": "LG",
+      "cateType": "smarttv",
+      "id": "014"
+    },
+    {
+      "cateName": "Asanzo",
+      "cateType": "smarttv",
+      "id": "014"
+    },
+    {
+      "cateName": "Samsung",
+      "cateType": "tablet",
+      "id": "001"
+    },
+    {
+      "cateName": "Xiaomi",
+      "cateType": "tablet",
+      "id": "004"
+    },
+    {
+      "cateName": "realme",
+      "cateType": "tablet",
+      "id": "005"
+    },
+    {
+      "cateName": "apple",
+      "cateType": "tablet",
+      "id": "006"
+    },
+    {
+      "cateName": "Philips",
+      "cateType": "phone",
+      "id": "6"
+    },
+    {
+      "cateName": "XOR",
+      "cateType": "phone",
+      "id": "2"
+    },
+    {
+      "cateName": "Samsung",
+      "cateType": "phone",
+      "id": "3"
+    },
+    {
+      "cateName": "Xiaomi",
+      "cateType": "phone",
+      "id": "4"
+    },
+    {
+      "cateName": "realme",
+      "cateType": "phone",
+      "id": "5"
+    },
+    {
+      "cateName": "Philips",
+      "cateType": "phone",
+      "id": "6"
+    },
+    {
+      "cateName": "Vivo",
+      "cateType": "phone",
+      "id": "7"
+    },
+    {
+      "cateName": "Itel",
+      "cateType": "phone",
+      "id": "8"
+    },
+    {
+      "cateName": "Masstel",
+      "cateType": "phone",
+      "id": "9"
+    },
+    {
+      "cateName": "BPhone",
+      "cateType": "phone",
+      "id": "10"
+    },
+    {
+      "cateName": "TECNO",
+      "cateType": "phone",
+      "id": "11"
+    },
+    {
+      "cateName": "Energizer",
+      "cateType": "phone",
+      "id": "12"
+    },
+    {
+      "cateName": "OPPO",
+      "cateType": "phone",
+      "id": "13"
+    },
+    {
+      "cateName": "Blackberry",
+      "cateType": "phone",
+      "id": "14"
+    },
+    {
+      "cateName": "Nokia",
+      "cateType": "phone",
+      "id": "15"
+    },
+    {
+      "cateName": "MacBook",
+      "cateType": "laptop",
+      "id": "16"
+    },
+    {
+      "cateName": "Dell",
+      "cateType": "laptop",
+      "id": "17"
+    },
+    {
+      "cateName": "iMac 2021",
+      "cateType": "laptop",
+      "id": "18"
+    },
+    {
+      "cateName": "Microsoft",
+      "cateType": "laptop",
+      "id": "19"
+    },
+    {
+      "cateName": "Lenovo",
+      "cateType": "laptop",
+      "id": "20"
+    },
+    {
+      "cateName": "MSI",
+      "cateType": "laptop",
+      "id": "21"
+    },
+    {
+      "cateName": "ASUS",
+      "cateType": "laptop",
+      "id": "22"
+    },
+    {
+      "cateName": "GIGABYTE",
+      "cateType": "laptop",
+      "id": "23"
+    },
+    {
+      "cateName": "HP",
+      "cateType": "laptop",
+      "id": "24"
+    },
+    {
+      "cateName": "phụ kiện apple",
+      "cateType": "accessory",
+      "id": "25"
+    },
+    {
+      "cateName": "miếng dán màn hình",
+      "cateType": "accessory",
+      "id": "26"
+    },
+    {
+      "cateName": "củ sạc, dây cáp",
+      "cateType": "accessory",
+      "id": "27"
+    },
+    {
+      "cateName": "phụ kiện học sinh",
+      "cateType": "accessory",
+      "id": "28"
+    },
+    {
+      "cateName": "phụ kiện máy tính",
+      "cateType": "accessory",
+      "id": "29"
+    },
+    {
+      "cateName": "tai nghe",
+      "cateType": "accessory",
+      "id": "30"
+    },
+    {
+      "cateName": "Loa",
+      "cateType": "speaker",
+      "id": "31"
+    },
+    {
+      "cateName": "Headphone ASUS",
+      "cateType": "speaker",
+      "id": "32"
+    },
+    {
+      "cateName": "Tai nghe bluetoot",
+      "cateType": "speaker",
+      "id": "33"
+    },
+    {
+      "cateName": "Tai nghe không dây",
+      "cateType": "speaker",
+      "id": "34"
+    },
+    {
+      "cateName": "Mouse gaming",
+      "cateType": "gaming",
+      "id": "35"
+    },
+    {
+      "id": "TSc8VOF",
+      "cateName": "iphone",
+      "cateType": "phone"
+    }
+  ],
+  "brandCate": [
+    {
+      "id": 1,
+      "name": "phone"
+    },
+    {
+      "id": 2,
+      "name": "smarttv"
+    },
+    {
+      "id": 3,
+      "name": "speaker"
+    },
+    {
+      "id": 4,
+      "name": "gaming"
+    },
+    {
+      "id": 5,
+      "name": "accessory"
+    },
+    {
+      "id": 6,
+      "name": "laptop"
+    },
+    {
+      "id": 7,
+      "name": "tablet"
+    }
+  ],
+  "users": [
+    {
+      "email": "truongrubi717@gmail.com",
+      "password": "$2a$10$q0NIS84R2gWebLMZBaIr2ep4xWlz0SVFR7Kt1L.D.dx1ZR2ne2nn.",
+      "name": "Nguyễn Quang Trường",
+      "id": 1
+    }
+  ]
+}
