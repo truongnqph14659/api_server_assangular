@@ -16,26 +16,18 @@ const rules = auth.rewriter({
 })
 
 // You must apply the middlewares in the following order
+server.use(cors())
 server.use(rules)
 server.use(auth)
-
-server.use(cors())
 server.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:4200')
+  res.header('Access-Control-Allow-Headers', '*')
   if (req.method === 'POST') {
     req.body.createAt = Date.now()
     req.body.updateAt = Date.now()
   } else if (req.method === 'PATCH') {
     req.body.updateAt = Date.now()
   }
-  next()
-})
-server.use((req, res, next) => {
-  res.header(
-    'Access-Control-Allow-Origin: http://localhost:4200',
-    'Access-Control-Allow-Methods: POST',
-    'Access-Control-Allow-Headers: Content-Type, Authorization'
-  )
-  res.header('Access-Control-Allow-Headers', '*')
   next()
 })
 
