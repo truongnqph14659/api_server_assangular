@@ -311,18 +311,5 @@
           "id": 7,
           "name": "tablet"
       }
-  ],
-  "users": [{
-          "email": "truongrubi717@gmail.com",
-          "password": "$2a$10$q0NIS84R2gWebLMZBaIr2ep4xWlz0SVFR7Kt1L.D.dx1ZR2ne2nn.",
-          "name": "Nguyễn Quang Trường",
-          "id": 1
-      },
-      {
-          "email": "trangltph14650@fpt.edu.vn",
-          "password": "$2a$10$hoX//nPlPYOocF221m0gtuQecpDrbLSmjG6ZswIyjU3qAdwvOjbU2",
-          "name": "baoloc",
-          "id": 2
-      }
   ]
 }
