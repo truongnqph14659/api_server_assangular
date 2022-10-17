@@ -29,6 +29,14 @@ server.use((req, res, next) => {
   }
   next()
 })
+server.use((req, res, next) => {
+  res.header(
+    'Access-Control-Allow-Origin',
+    'https://apiserverassangular.vercel.app/api'
+  )
+  res.header('Access-Control-Allow-Headers', '*')
+  next()
+})
 
 server.use('/api', router)
 server.listen(8080, () => {
