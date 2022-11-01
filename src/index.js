@@ -4,10 +4,11 @@ const cors = require('cors')
 const path = require('path')
 const server = jsonServer.create()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
-// const middlewares = jsonServer.defaults({
-//   noCors: true,
+const middlewares = jsonServer.defaults({
+  noCors: true,
+  Authorization:'Bearer '+'prj_46tyyXPXmaUKpBnyc7mdVZm3NHkU'
   
-// })
+})
 server.db = router.db
 
 const rules = auth.rewriter({
@@ -22,7 +23,7 @@ server.use(rules)
 server.use(auth)
 server.use((req, res, next) => {
    
-  res.setHeader('Authorization':'Bearer '+'prj_46tyyXPXmaUKpBnyc7mdVZm3NHkU')
+//   res.setHeader('Authorization':'Bearer '+'prj_46tyyXPXmaUKpBnyc7mdVZm3NHkU')
 //  headers: {
 //             Authorization: `Bearer ${process.env.VERCEL_ACCESS_TOKEN}`,
 //         }
