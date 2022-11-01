@@ -23,7 +23,7 @@ server.use(rules)
 server.use(auth)
 server.use((req, res, next) => {
    
-  res.setHeader('Authorization','Bearer '+'prj_46tyyXPXmaUKpBnyc7mdVZm3NHkU')
+  res.setHeader('Authorization','Bearer '+'prj_erw7r3fyVqPdxlbRv7HQZeLzZJbV')
 //  headers: {
 //             Authorization: `Bearer ${process.env.VERCEL_ACCESS_TOKEN}`,
 //         }
