@@ -6,6 +6,7 @@ const server = jsonServer.create()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
 // const middlewares = jsonServer.defaults({
 //   noCors: true,
+  
 // })
 server.db = router.db
 
@@ -20,7 +21,10 @@ server.use(cors())
 server.use(rules)
 server.use(auth)
 server.use((req, res, next) => {
-  
+  res.setHeader('Authorization':'Bearer prj_46tyyXPXmaUKpBnyc7mdVZm3NHkU')
+//  headers: {
+//             Authorization: `Bearer ${process.env.VERCEL_ACCESS_TOKEN}`,
+//         }
 //     res.setHeader('Access-Control-Allow-Origin: https://assignmentangular.vercel.app','Access-Control-Allow-Methods: GET, POST, PUT')
 //     res.setHeader('Access-Control-Allow-Headers', '*')
 //    res.setHeader('Access-Control-Allow-Origin', 'https://assignmentangular.vercel.app')
