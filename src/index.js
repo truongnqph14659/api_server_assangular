@@ -20,12 +20,13 @@ server.use(cors())
 server.use(rules)
 server.use(auth)
 server.use((req, res, next) => {
+  
 //     res.setHeader('Access-Control-Allow-Origin: https://assignmentangular.vercel.app','Access-Control-Allow-Methods: GET, POST, PUT')
 //     res.setHeader('Access-Control-Allow-Headers', '*')
-   res.setHeader('Access-Control-Allow-Origin', 'https://assignmentangular.vercel.app')
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE')
-  res.setHeader('Access-Control-Allow-Headers', '*')
-  res.setHeader('Access-Control-Allow-Credentials', true)
+//    res.setHeader('Access-Control-Allow-Origin', 'https://assignmentangular.vercel.app')
+//   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE')
+//   res.setHeader('Access-Control-Allow-Headers', '*')
+//   res.setHeader('Access-Control-Allow-Credentials', true)
   if (req.method === 'POST') {
     req.body.createAt = Date.now()
     req.body.updateAt = Date.now()
